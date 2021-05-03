@@ -13,6 +13,11 @@ Using Node to run the Express app:
 yarn run
 ```
 
+Using nodemon to run the Express app with live reloading:
+```sh
+yarn dev
+```
+
 ## Testing
 Using Jest to test in watch mode:
 ```sh
