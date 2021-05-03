@@ -1,9 +1,4 @@
-export default createCampus = ({
-    name,
-    imageURL = 'https://via.placeholder.com/150',
-    address,
-    description = ''
-}) =>
+export default createCampus = ({ name, imageURL, address, description }) =>
 {
     return buildCampus = ({ name, imageURL, address, description }) =>
     {
@@ -12,9 +7,9 @@ export default createCampus = ({
 
         return Object.freeze({
             getName: () => name,
-            getImageURL: () => imageURL,
+            getImageURL: () => imageURL || 'https://via.placeholder.com/150',
             getAddress: () => address,
-            getDescription: () => description
+            getDescription: () => description || ''
         });
     };
 };
