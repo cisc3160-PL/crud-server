@@ -11,3 +11,5 @@ app.listen(port, () =>
 {
     console.log(`Express app listening at localhost:${port}`);
 });
+
+module.exports = app;
