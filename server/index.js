@@ -1,6 +1,8 @@
 const express = require('express');
-const server = express()
+const server = express();
+const routes = require('../routes');
 
-server.get('/', (req, res) => res.send('Hello World!'));
+server.use(express.json());
+server.use('/api', routes);
 
 module.exports = server;
