@@ -2,9 +2,9 @@
   "name": "crud-server",
   "version": "0.1.0",
   "description": "Backend using PERN stack",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon app.js",
+    "dev": "nodemon server.js",
     "test": "jest --watchAll"
   },
   "repository": {
