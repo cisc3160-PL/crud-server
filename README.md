@@ -20,7 +20,7 @@ yarn test
 ```
 
 # Clean Architecture
-![Clean Architecture](assets/images/CleanArchitecture.jpg)
+[![Clean Architecture](assets/images/CleanArchitecture.jpg)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ## Entities
 - No dependencies, no import or require statements
