@@ -1,5 +1,5 @@
 # CRUD Server
-Backend using PERN stack
+Backend using PERN stack (PostgreSQL, Express, React, Node).
 
 ## Installation
 Install dependencies using yarn:
