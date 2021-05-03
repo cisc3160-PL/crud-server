@@ -1,4 +1,4 @@
-const server = require('../server');
+const server = require('../src/server');
 const request = require('supertest');
 
 describe('Test public routes', () =>
