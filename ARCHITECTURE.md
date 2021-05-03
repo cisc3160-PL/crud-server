@@ -16,3 +16,16 @@
 - Has dependency on entities
 - Receives adapters via dependency injection
     - Not tightly coupled at compile time, but at runtime
+
+# Routes
+- `/api` - route to API router
+- `/api/campuses` - route to campus subrouter
+    - GET `api/campuses` - gets all campuses
+    - GET `api/campuses/:id` - gets a single campus by id
+    - POST `api/campuses` - add a single campus
+    - DELETE `api/campuses/:id` - deletes a single campus by id
+- `/api/students` - route to student subrouter
+    - GET `api/students` - gets all students
+    - GET `api/students/:id` - gets a single student by id
+    - POST `api/students` - add a single student
+    - DELETE `api/students/:id` - deletes a single student by id
