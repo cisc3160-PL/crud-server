@@ -8,11 +8,6 @@ yarn
 ```
 
 ## Running the Server
-Using Node to run the Express app:
-```sh
-yarn run
-```
-
 Using nodemon to run the Express app with live reloading:
 ```sh
 yarn dev

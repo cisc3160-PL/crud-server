@@ -4,7 +4,6 @@
   "description": "Backend using PERN stack",
   "main": "app.js",
   "scripts": {
-    "run": "node app.js",
     "dev": "nodemon app.js",
     "test": "jest --watchAll"
   },
