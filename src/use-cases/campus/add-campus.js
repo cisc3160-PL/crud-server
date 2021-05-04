@@ -5,7 +5,7 @@ export default buildAddCampus = ({ campusDB }) =>
     return addCampus = async (campusInfo) =>
     {
         const campus = createCampus(campusInfo);
-        const exists = await campusDB.findById({ id: campus.getId() });
+        const exists = await campusDB.findById({ id: campus.getID() });
         if(exists) return exists;
 
         return campusDB.insert({
