@@ -38,6 +38,14 @@
 - Patch campus/student
 - Delete campus/student
 
+## Frameworks and Drivers
+- Databases, web frameworks
+- Not much code is written here other than to connect external existing code to inner layers
+
+**Examples:**
+- PostgreSQL: connect using Sequelize
+- Express callback: connect controllers to routes
+
 # Routes
 - `/api` - route to API router
 - `/api/campuses` - route to campus subrouter
