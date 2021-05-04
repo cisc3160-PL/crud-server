@@ -1,6 +1,11 @@
-export default createCampus = ({ name, imageURL, address, description }) =>
+module.exports = buildCreateCampus = () =>
 {
-    return buildCampus = ({ name, imageURL, address, description }) =>
+    return createCampus = ({
+        name,
+        imageURL,
+        address,
+        description
+    } = {}) =>
     {
         if(!name) throw new Error('Campus must have a name.');
         if(!address) throw new Error('Campus must have an address.');
