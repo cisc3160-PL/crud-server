@@ -22,9 +22,21 @@
     - Not tightly coupled at compile time, but at runtime
 
 **Examples:**
-- List campuses/student
+- List campuses/students
 - Add campus/student
+- Edit campus/student
 - Remove campus/student
+
+## Controllers
+- Adapters that convert data from use cases and entities to a more convenient format for external frameworks (database or web)
+- All database querying should occur in this layer
+- External data can also be converted into a more convenient format to be injected into the use cases and entities
+
+**Examples:**
+- Get campuses/students
+- Post campus/student
+- Patch campus/student
+- Delete campus/student
 
 # Routes
 - `/api` - route to API router
