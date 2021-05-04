@@ -1,6 +1,5 @@
-import { addCampus } from '../../use-cases/campus';
-
-import buildPostCampus from './post-campus';
+const { addCampus } = require('../../use-cases/campus');
+const buildPostCampus = require('./post-campus');
 
 const postCampus = buildPostCampus({ addCampus });
 
@@ -8,5 +7,8 @@ const campusController = Object.freeze({
     postCampus
 });
 
-export default campusController;
-export { postCampus };
+module.exports =
+{
+    campusController,
+    postCampus
+};

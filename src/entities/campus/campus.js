@@ -1,8 +1,7 @@
-export default buildCreateCampus = ({ ID }) =>
+module.exports = buildCreateCampus = () =>
 {
     return createCampus = ({
         name,
-        id = ID(),
         imageURL,
         address,
         description
@@ -13,7 +12,6 @@ export default buildCreateCampus = ({ ID }) =>
 
         return Object.freeze({
             getName: () => name,
-            getID: () => id,
             getImageURL: () => imageURL || 'https://via.placeholder.com/150',
             getAddress: () => address,
             getDescription: () => description || ''

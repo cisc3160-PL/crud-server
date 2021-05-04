@@ -1,4 +1,4 @@
-export default buildPostCampus = ({ addCampus }) =>
+module.exports = buildPostCampus = ({ addCampus }) =>
 {
     return postCampus = async (httpRequest) =>
     {

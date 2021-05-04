@@ -1,5 +1,5 @@
-import buildCreateCampus from './campus';
+const buildCreateCampus = require('./campus');
 
 const createCampus = buildCreateCampus();
 
-export default createCampus;
+module.exports = createCampus;

@@ -1,10 +1,14 @@
-import buildAddCampus from './add-campus';
+const buildAddCampus = require('./add-campus');
+const { campusDB } = require('../../database');
 
-const addCampus = buildAddCampus();
+const addCampus = buildAddCampus({ campusDB });
 
 const campusService = Object.freeze({
     addCampus
 });
 
-export default campusService;
-export { addCampus };
+module.exports =
+{
+    campusService,
+    addCampus
+};

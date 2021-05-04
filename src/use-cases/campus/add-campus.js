@@ -1,12 +1,10 @@
-import createCampus from '../../entities/campus';
+const createCampus = require('../../entities/campus');
 
-export default buildAddCampus = ({ campusDB }) =>
+module.exports = buildAddCampus = ({ campusDB }) =>
 {
     return addCampus = async (campusInfo) =>
     {
         const campus = createCampus(campusInfo);
-        const exists = await campusDB.findById({ id: campus.getID() });
-        if(exists) return exists;
 
         return campusDB.insert({
             name: campus.getName(),
