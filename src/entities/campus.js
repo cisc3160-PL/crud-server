@@ -1,4 +1,4 @@
-export default buildCreateCampus = ({ name, imageURL, address, description }) =>
+export default buildCreateCampus = () =>
 {
     return createCampus = ({ name, imageURL, address, description }) =>
     {
