@@ -347,14 +347,14 @@ module.exports = server;
 ```
 
 ### Making Requests via Postman
-Successful request
+Successful request \
 ![Campus post success](assets/images/campus-post-success.png)
 
-Failed request: campus with no name (entity handles error)
+Failed request: campus with no name (entity handles error) \
 ![Campus post fail name](assets/images/campus-post-fail-name.png)
 
-Failed request: campus with no address (entity handles error)
+Failed request: campus with no address (entity handles error) \
 ![Campus post fail address](assets/images/campus-post-fail-address.png)
 
-Successful request: optional description
+Successful request: optional description \
 ![Campus post success](assets/images/campus-post-success-optdesc.png)
